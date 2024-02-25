@@ -24,8 +24,6 @@ class TestDataIngestion(unittest.TestCase):
         result = file_exists_dbfs("/tmp/test_file.csv")
         self.assertTrue(result)
 
-    # Additional test methods can go here
-
 
 # COMMAND ----------
 
